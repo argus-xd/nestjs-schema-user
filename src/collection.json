@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "change-name": {
+      "description": "A blank schematic.",
+      "factory": "./change-name/index#main",
+      "schema": "./change-name/schema.json"
+    },
+    "pg-module": {
+      "description": "A blank schematic.",
+      "factory": "./pg-module/index#main",
+      "schema": "./pg-module/schema.json"
+    }
+  }
+}
