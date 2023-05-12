@@ -1,29 +1,14 @@
 {
   "compilerOptions": {
-    "baseUrl": "tsconfig",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
-    "declaration": true,
     "module": "commonjs",
-    "moduleResolution": "node",
-    "noEmitOnError": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "noUnusedParameters": true,
-    "noUnusedLocals": true,
-    "rootDir": "src/",
-    "skipDefaultLibCheck": true,
+    "target": "es2017",
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "src",
+    "declaration": true,
+    "removeComments": true,
+    "sourceMap": false,
     "skipLibCheck": true,
-    "sourceMap": true,
-    "strictNullChecks": true,
-    "target": "es6",
-    "types": [
-      "jasmine",
-      "node"
-    ]
+    "rootDir": "src/",
   },
   "include": [
     "src/**/*"

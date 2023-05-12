@@ -10,6 +10,17 @@
       "description": "A blank schematic.",
       "factory": "./pg-module/index#main",
       "schema": "./pg-module/schema.json"
+    },
+    "new": {
+      "description": "A blank schematic.",
+      "factory": "./new/index#main",
+      "schema": "./new/schema.json"
+    },
+    "service": {
+      "factory": "./service/service.factory#main",
+      "description": "Create a Nest service.",
+      "schema": "./service/schema.json",
+      "aliases": ["s"]
     }
   }
 }

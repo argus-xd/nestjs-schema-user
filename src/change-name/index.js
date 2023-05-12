@@ -20,4 +20,3 @@ function main(_options) {
     };
 }
 exports.main = main;
-//# sourceMappingURL=index.js.map

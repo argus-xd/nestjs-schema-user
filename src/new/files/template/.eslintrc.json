@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "extends": ["@byndyusoft/eslint-config/backend"],
+  "parserOptions": {
+    "ecmaVersion": 2021, // Node.js v16 LTS
+    "project": ["./packages/*/tsconfig.json"]
+  },
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "settings": {
+        "import/resolver": {
+          "typescript": {
+            "project": "./packages/*/tsconfig.json"
+          }
+        }
+      }
+    }
+  ]
+}
