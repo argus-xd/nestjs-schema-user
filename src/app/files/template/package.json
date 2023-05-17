@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "<%= name %>",
   "version": "0.0.0-development",
   "private": true,
   "description": "root workspace",
@@ -12,7 +12,7 @@
     "url": "https://github.com/Byndyusoft/ᐸRepository nameᐳ.git"
   },
   "license": "Apache-2.0",
-  "author": "<%= name %>",
+  "author": "Byndyusoft",
   "workspaces": [
     "packages/*"
   ],

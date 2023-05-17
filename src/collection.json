@@ -2,25 +2,19 @@
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "change-name": {
-      "description": "A blank schematic.",
+      "description": "Change name.",
       "factory": "./change-name/index#main",
       "schema": "./change-name/schema.json"
     },
     "pg-module": {
-      "description": "A blank schematic.",
+      "description": "Create a Nest module.",
       "factory": "./pg-module/index#main",
       "schema": "./pg-module/schema.json"
     },
-    "new": {
-      "description": "A blank schematic.",
-      "factory": "./new/index#main",
-      "schema": "./new/schema.json"
-    },
-    "service": {
-      "factory": "./service/service.factory#main",
-      "description": "Create a Nest service.",
-      "schema": "./service/schema.json",
-      "aliases": ["s"]
+    "app": {
+      "description": "Create a Nest app.",
+      "factory": "./app/index#main",
+      "schema": "./app/schema.json"
     }
   }
 }
