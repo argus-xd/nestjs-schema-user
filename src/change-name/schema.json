@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/schema",
-    "$id": "HelloSchematics",
-    "title": "Hello Options Schema",
+    "$id": "changeName",
+    "title": "Change name",
     "type": "object",
     "properties": {
         "name": {
@@ -11,7 +11,7 @@
             "$source": "argv",
             "index": 0
           },
-          "x-prompt": "Введите имя автора пакетов"
+          "x-prompt": "Enter the name of the package author"
         }
     },
     "required": [
